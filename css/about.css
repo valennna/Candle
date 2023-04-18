@@ -1,0 +1,283 @@
+@font-face {
+    font-family: "MAK";
+    font-style: normal;
+    font-weight: 400;
+  
+    src: local("MAK"),
+         url("/font/Mak/MAK.otf") format("otf");
+}
+@font-face {
+    font-family: "MAK";
+    font-style: normal;
+    font-weight: 700;
+  
+    src: local("MAK"),
+         url("/font/Mak/MAK-bold.otf") format("otf");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+  
+    src: local("Roboto"),
+         url("/font/Roboto/Roboto-Regular.ttf") format("ttf");
+}
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+  
+    src: local("Roboto"),
+         url("/font/Roboto/Roboto-Bold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+  
+    src: local("Roboto"),
+         url("/font/Roboto/Roboto-Thin.woff") format("woff");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --collor1: #E8DABF;
+    --collor2: #C92F27;
+    --collor5: #D2B681;
+    --collor3: #1E1515;
+    --collor4: #FFEBDD;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: var(--collor1);
+    color: var(--collor2);
+    box-sizing: border-box;
+}
+
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+}
+.nav__left{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__left a{
+    padding-right: 2vw;
+}
+.nav__right{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.4vw;
+    color: var(--collor2);
+}
+.link__nav__sign__in{
+    padding-right: 2vw;
+}
+.link__nav__bag{
+    padding-right: 2vw;
+}
+@media only screen and (max-width: 480px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+.container__header{
+    padding-bottom: 15vw;
+}
+.top__header{
+    justify-content: space-between;
+    display: flex;
+    padding-left: 10vw;
+}
+.title__header{
+    font-family: 'MAK', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+    padding-bottom: 2vw;
+}
+.line__header{
+    margin-top: 3vw;
+    width: 45vw;
+    border: 2px solid var(--collor5);
+}
+.middle__header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.middle__text__header{
+    width: 34vw;
+    font-size: 1.6vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 160%;
+    padding-bottom: 5vw;
+}
+.middle__photo__header{
+    width: 44vw;
+    height: 28vw;
+    background: url("../img/о_нас01.png") no-repeat;
+    background-size: cover;
+}
+.bottom__header{
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.bottom__photo__header{
+    width: 32.6vw;
+    height: 27.2vw;
+    background: url("../img/о_нас02.png") no-repeat;
+    background-size: cover;
+}
+.bottom__text__header{
+    width: 45vw;
+    font-size: 1.6vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 160%;
+    padding-left: 2.8vw;
+}
+.owner{padding-top: 0.8vw;
+    font-family: 'MAK', sans-serif;
+    font-weight: 700;
+    font-size: 4.6vw;
+    padding-bottom: 4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Concern */
+.concern{
+    margin-bottom: 15vw;
+}
+.concern__title{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-family: 'MAK', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+    padding-bottom: 3vw;
+}
+.container__concern{
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+.left__concern, .right__concern{
+    width: 40vw;
+    margin-bottom: 4vw;
+}
+.left__concern{
+    padding-right: 5vw;
+}
+.photo__concern02{
+    width: 80vw;
+    height: 40vw;
+    background: url("../img/Rectangle\ 64.png") no-repeat;
+    background-size: cover;
+}
+.photo__concern{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.text_concern{
+    font-size: 1.6vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.line__footer{
+    border: 2px solid var(--collor5);
+}
+.footer__container{
+    display: flex;
+    padding-left: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 2vw;
+    margin-bottom:2vw;
+}
+.right__footer{
+    margin-left: 20vw;
+}
+.right__footer a{
+    text-decoration: none;
+    color: var(--collor2);
+    font-size: 1.6vw;
+    line-height: 160%;
+}
+.link__logo a{
+    text-decoration: none;
+    color: var(--collor2);
+    font-size: 1.6vw;
+}
+.politica a{
+    text-decoration: none;
+    color: var(--collor2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 160%;
+}
+.link__logo{
+    padding-bottom: 6.6vw;
+}

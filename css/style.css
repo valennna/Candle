@@ -1,0 +1,585 @@
+@font-face {
+    font-family: "MAK";
+    font-style: normal;
+    font-weight: 400;
+  
+    src: local("MAK"),
+         url("/font/Mak/MAK.otf") format("otf");
+}
+@font-face {
+    font-family: "MAK";
+    font-style: normal;
+    font-weight: 700;
+  
+    src: local("MAK"),
+         url("/font/Mak/MAK-bold.otf") format("otf");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+  
+    src: local("Roboto"),
+         url("/font/Roboto/Roboto-Regular.ttf") format("ttf");
+}
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+  
+    src: local("Roboto"),
+         url("/font/Roboto/Roboto-Bold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+  
+    src: local("Roboto"),
+         url("/font/Roboto/Roboto-Thin.woff") format("woff");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --collor1: #E8DABF;
+    --collor2: #C92F27;
+    --collor5: #D2B681;
+    --collor3: #1E1515;
+    --collor4: #FFEBDD;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: var(--collor1);
+    color: var(--collor2);
+    box-sizing: border-box;
+}
+
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+}
+.nav__left{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__left a{
+    padding-right: 2vw;
+}
+.nav__right{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.4vw;
+    color: var(--collor2);
+}
+.link__nav__sign__in{
+    padding-right: 2vw;
+}
+.link__nav__bag{
+    padding-right: 2vw;
+}
+@media only screen and (max-width: 480px) {
+    
+}
+
+
+
+
+
+
+
+/* header */
+.header__block{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.title__slogan{
+    font-size: 4.6vw;
+    font-family: 'MAK', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1vw;
+    line-height: 130%;
+}
+.header__text{
+    width: 45vw;
+    font-size: 1.6vw;
+    padding-top: 1vw;
+}
+.text__slogan{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+.header__button__catalog{
+    margin-top: 4vw;
+}
+.button_catalog{
+    width: 25vw;
+    height: 4.6vw;
+    font-size: 1.8vw;
+    border-radius: 5px;
+    background-color: var(--collor2);
+    color: var(--collor1);
+    border: none;
+}
+.block__right{
+    right: 0;
+}
+.header__photo{
+    padding-left: 4vw;
+    width: 25vw;
+    height: 36vw;
+    background: url("../img/большая_баночка_свеча.png") no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 480px){
+    /* .header__block{
+        align-items: center;
+        display: block;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+    .title__slogan{
+        font-size: 78px;
+        margin-top: 1vw;
+        line-height: 140%;
+    }
+    .header__text{
+        width: 170vw;
+        font-size: 32px;
+        padding-top: 1vw;
+    }
+    .text__slogan{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    .header__button__catalog{
+        margin-top: 10vw;
+    }
+    .button_catalog{
+        font-size: 32px;
+        border-radius: 5px;
+        width: 135vw;
+        height: 25vw;
+    }
+    .header__photo{
+        margin-left: -9vw;
+        margin-top: 20vw;
+        padding-left: 0vw;
+        width: 180vw;
+        height: 225vw;
+    } */
+}
+
+
+
+
+
+
+/* why */
+.Why{
+    margin-top: 15vw;
+    margin-bottom: 20vw;
+}
+.block__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vw;
+}
+.title__why{
+    padding-left: 10vw;
+    text-transform: uppercase;
+    font-size: 4.6vw;
+    font-family: 'MAK', sans-serif;
+    font-weight: 700;
+}
+.why__line{
+    padding-top: 2.4vw;
+}
+.line__top{
+    padding-right: 5vw;
+    border: 2px solid var(--collor5);
+    width: 44vw;
+}
+
+
+
+
+
+
+
+
+.item__work__middle{
+    display: flex;
+}
+.item__text__work{
+    font-size: 4.6vw;
+    font-family: 'MAK', sans-serif;
+    font-weight: 700;
+}
+.text__work{
+    width: 16vw;
+    font-size: 1.6vw;
+    margin-left: 2vw;
+    line-height: 160%;
+}
+.text__midlle{
+    display: flex;
+}
+.text__middle__01{
+    padding-left: 10vw;
+}
+.text__middle__03{
+    padding-left: 16vw;
+}
+.text__middle__02{
+    padding-left: 29vw;
+}
+.text__middle__04{
+    padding-left: 16vw;
+}
+.text__work__04{
+    width: 14vw;
+}
+
+.block__middle{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.block__fair{
+    display: flex;
+}
+.block__fair__1{
+    margin-left: 16vw;
+    width: 3.2vw;
+    height: 5vw;
+    background: url("../img/свеча.svg") no-repeat;
+    background-size: cover;
+}
+.block__fair__2{
+    margin-left: 17vw;
+    width: 3.2vw;
+    height: 5vw;
+    background: url("../img/свеча.svg") no-repeat;
+    background-size: cover;
+}
+.block__fair__3{
+    margin-left: 17vw;
+    width: 3.2vw;
+    height: 5vw;
+    background: url("../img/свеча.svg") no-repeat;
+    background-size: cover;
+}
+.block__fair__4{
+    margin-right: 16vw;
+    margin-left: 17vw;
+    width: 3.2vw;
+    height: 5vw;
+    background: url("../img/свеча.svg") no-repeat;
+    background-size: cover;
+}
+.block__middle{
+    width: 100%;
+}
+.line__middle{
+    border: 2px solid var(--collor5);
+}
+
+
+
+
+.block__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.title__universe{
+    padding-right: 10vw;
+    font-size: 4.6vw;
+    text-transform: uppercase;
+    font-family: 'MAK', sans-serif;
+    font-weight: 700;
+}
+.universe__line{
+    padding-top: 2.6vw;
+}
+.line__bottom{
+    padding-right: 5vw;
+    border: 2px solid var(--collor5);
+    width: 50vw;
+}
+
+
+
+
+
+
+/* universe */
+.photo__universe{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.link__universe__text{
+    display: flex;
+    margin-top: 2vw;
+}
+.link__universe__text a{
+    text-decoration: none;
+    color: var(--collor2);
+}
+.text__link__uni{
+    font-size: 1.8vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.arrow__link__uni{
+    width: 1.4vw;
+    height: 1.4vw;
+    background: url("../img/arrow.png") no-repeat;
+    background-size: cover;
+    margin-left: 3vw;
+}
+.photo__item01__uni{
+    width: 25.6vw;
+    height: 36vw;
+    background: url("../img/свеча.jpg") no-repeat;
+    background-size: cover;
+}
+.photo__item02__uni{
+    width: 25.6vw;
+    height: 36vw;
+    background: url("../img/свеча_3.png") no-repeat;
+    background-size: cover;
+}
+.photo__item03__uni{
+    width: 25.6vw;
+    height: 36vw;
+    background: url("../img/свеч_2.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* Brand section */
+.Brand{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-bottom: 14vw;
+}
+.brand__title{
+    position: absolute;
+    font-size: 10.9vw;
+    font-family: 'MAK', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: -5.3vw;
+}
+.brand__container__top{
+    display: flex;
+    justify-content: space-between;
+}
+.brand__text{
+    width: 34vw;
+    font-size: 1.4vw;
+    line-height: 160%;
+}
+.brand__top__photo{
+    width: 43vw;
+    height: 34vw;
+    background: url("../img/Brand_photo_01.png") no-repeat;
+    background-size: cover;
+}
+.brand__logo{
+    font-size: 3.8vw;
+    font-family: 'MAK', sans-serif;
+    font-weight: 400;
+    margin-bottom: 1.4vw;
+    
+}
+.brand__top__left{
+    padding-top: 6vw;
+}
+.brand__container__bottom{
+    display: flex;
+    margin-top: 6vw;
+    margin-bottom: 9vw;
+}
+.photo__left__brand{
+    width: 36vw;
+    height: 42vw;
+    background: url("../img/brand__photo_02.png") no-repeat;
+    background-size: cover;
+}
+.text__link__brend{
+    font-size: 1.6vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.brand__bottom__right{
+    padding-left: 7vw;
+}
+.title__barnd__right{
+    font-size: 5.6vw;
+    font-family: 'MAK', sans-serif;
+    font-weight: 800;
+}
+.text__brand__right{
+    width: 34vw;
+    font-size: 1.4vw;
+    line-height: 160%;
+}
+.catalog__brand{
+    background-color: var(--collor1);
+    color: var(--collor2);
+    border: 2px solid var(--collor2);
+    font-weight: 700;
+}
+.catalog__brand__button{
+    margin-top: 3vw;
+}
+.photo__brand__right{
+    margin-top: 14vw;
+    width: 35vw;
+    height: 26vw;
+    background: url("../img/необычная\ форма\ свечи.png") no-repeat;
+    background-size: cover;
+}
+.line__faq{
+    width: 70vw;
+}
+
+
+
+
+
+
+/* FAQ */
+.FAQ{
+    margin-bottom: 14vw;
+}
+.line__faq__top{
+    width: 83vw;
+}
+.faq__line__bottom{
+    display: flex;
+    justify-content: end;
+}
+.line__faq__bottom{
+    width: 88vw;
+    margin-left: 10vw;
+}
+.container__faq{
+    margin-bottom: 10vw;
+}
+.list_item_text{
+    width: 78vw;
+    padding-left: 10vw;
+    font-size: 1.6vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 160%;
+    padding-top: 1vw;
+}
+.list__item .list__item-text {
+    margin: 0;
+    padding: 0;
+}
+
+.ac .ac-trigger::after {
+    content: none;
+}
+
+.ac {
+    margin-top: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.is-active .list__item-icon {
+    transform: rotate(45deg);
+}
+.ac .ac-trigger {
+    padding: 0;
+    padding-top: 1vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--collor2);
+    text-align: left;
+    padding-left: 10vw;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: transparent;
+    transition: color .25s ease;
+    position: relative;
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+    font-size: 1.6vw;
+    width: 78vw;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+.line__footer{
+    border: 2px solid var(--collor5);
+}
+.footer__container{
+    display: flex;
+    padding-left: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.right__footer{
+    margin-left: 20vw;
+}
+.right__footer a{
+    text-decoration: none;
+    color: var(--collor2);
+    font-size: 1.6vw;
+    line-height: 160%;
+}
+.link__logo a{
+    text-decoration: none;
+    color: var(--collor2);
+    font-size: 1.6vw;
+}
+.politica a{
+    text-decoration: none;
+    color: var(--collor2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+}
+.link__logo{
+    padding-bottom: 6.6vw;
+}

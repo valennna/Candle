@@ -1,0 +1,380 @@
+@font-face {
+    font-family: "MAK";
+    font-style: normal;
+    font-weight: 400;
+  
+    src: local("MAK"),
+         url("/font/Mak/MAK.otf") format("otf");
+}
+@font-face {
+    font-family: "MAK";
+    font-style: normal;
+    font-weight: 700;
+  
+    src: local("MAK"),
+         url("/font/Mak/MAK-bold.otf") format("otf");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+  
+    src: local("Roboto"),
+         url("/font/Roboto/Roboto-Regular.ttf") format("ttf");
+}
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+  
+    src: local("Roboto"),
+         url("/font/Roboto/Roboto-Bold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+  
+    src: local("Roboto"),
+         url("/font/Roboto/Roboto-Thin.woff") format("woff");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --collor1: #E8DABF;
+    --collor2: #C92F27;
+    --collor5: #D2B681;
+    --collor3: #1E1515;
+    --collor4: #FFEBDD;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: var(--collor1);
+    color: var(--collor2);
+    box-sizing: border-box;
+}
+
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+}
+.nav__left{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__left a{
+    padding-right: 2vw;
+}
+.nav__right{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.4vw;
+    color: var(--collor2);
+}
+.link__nav__sign__in{
+    padding-right: 2vw;
+}
+.link__nav__bag{
+    padding-right: 2vw;
+}
+@media only screen and (max-width: 480px) {
+    
+}
+
+
+
+/* header */
+.container__header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 10vw;
+}
+.header__left{
+    width: 40vw;
+}
+.title__header{
+    margin-top: -1vw;
+    position: relative;
+    width: 50vw;
+    font-family: 'MAK', sans-serif;
+    font-weight: 700;
+    font-size: 5.18vw;
+    padding-bottom: 2vw;
+}
+.text__header{
+    width: 34vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 160%;
+    font-size: 1.6vw;
+}
+.header__right{
+    width: 40vw;
+}
+.photo__header{
+    width: 40vw;
+    height: 28vw;
+    background: url("../img/Photo_product.png") no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* Payment */
+.pay__container{
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 10vw;
+}
+.title__pay{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2vw;
+    font-family: 'MAK', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+    padding-bottom: 4vw;
+}
+.pay__left{
+    width: 40vw;
+}
+.pay__right{
+    width: 40vw;
+}
+.top{
+    display: flex;
+    width: 38vw;
+    height: 6vw;
+    border: 2px solid var(--collor2);
+}
+.bottom{
+    display: flex;
+    margin-top: 2vw;
+    width: 38vw;
+    height: 6vw;
+    border: 2px solid var(--collor2);
+}
+.photo__pay__01{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 0.5vw;
+    width: 5vw;
+    height: 5vw;
+    background: url("../img/безналич.png") no-repeat;
+    background-size: cover;
+}
+.photo__pay__04{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 0.5vw;
+    width: 5vw;
+    height: 5vw;
+    background: url("../img/банк.png") no-repeat;
+    background-size: cover;
+}
+.photo__pay__02{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 0.5vw;
+    width: 5vw;
+    height: 5vw;
+    background: url("../img/электрон.png") no-repeat;
+    background-size: cover;
+}
+.photo__pay__03{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 0.5vw;
+    width: 5vw;
+    height: 5vw;
+    background: url("../img/налич.png") no-repeat;
+    background-size: cover;
+}
+.text__pay{
+    padding-top: 2vw;
+    font-size: 1.6vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* delivery */
+.container__delivery{
+    margin-bottom: 10vw;
+}
+.title__delivery{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2vw;
+    font-family: 'MAK', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+    padding-bottom: 4vw;
+}
+.top__delivery, .bottom__delivery{
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.bottom__delivery{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 160%;
+}
+.middle__delivery{
+    border: 2px solid var(--collor5);
+}
+.top__delivery__2{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.8vw;
+    line-height: 160%;
+    padding-bottom: 2vw;
+}
+.bottom__delivery__2{
+    padding-top: 2vw;
+    width: 22vw;
+}
+.number__top{
+    padding-right: 1vw;
+    font-weight: 400;
+}
+.top__left{
+    padding-right: 15.2vw;
+}
+.top__middle{
+    padding-right: 7.6vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pickup */
+.pickup{
+    margin-bottom: 10vw;
+}
+.container__pickup{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+.title__pickup{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2vw;
+    font-family: 'MAK', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+    padding-bottom: 2vw;
+}
+.pickup__right{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 160%;
+    padding-left: 2vw;
+}
+.title__text__pickup{
+    padding-bottom: 1vw;
+}
+.text__top__pickup{
+    padding-bottom: 2vw;
+}
+.middle__text__pickup{
+    padding-bottom: 1vw;
+}
+.bottom__text__pickup{
+    width: 40vw;
+}
+.maps{
+    width: 40vw;
+    height: 34vw;
+}
+
+
+
+
+
+
+
+/* footer */
+.line__footer{
+    border: 2px solid var(--collor5);
+}
+.footer__container{
+    display: flex;
+    padding-left: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 2vw;
+    margin-bottom:2vw;
+}
+.right__footer{
+    margin-left: 20vw;
+}
+.right__footer a{
+    text-decoration: none;
+    color: var(--collor2);
+    font-size: 1.6vw;
+    line-height: 160%;
+}
+.link__logo a{
+    text-decoration: none;
+    color: var(--collor2);
+    font-size: 1.6vw;
+}
+.politica a{
+    text-decoration: none;
+    color: var(--collor2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 160%;
+}
+.link__logo{
+    padding-bottom: 6.6vw;
+}
