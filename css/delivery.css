@@ -122,7 +122,7 @@ body{
         /* сдвигаем (прячем) панель относительно левого края страницы */
         left: -320px;
         /* внутренние отступы */
-        padding: 15px 20px;
+        padding: 15px 15px;
         /* плавный переход смещения панели */
         -webkit-transition: left 0.3s;
         -moz-transition: left 0.3s;
@@ -478,7 +478,9 @@ body{
     background: url("../img/Photo_product.png") no-repeat;
     background-size: cover;
 }
-
+@media only screen and (max-width: 480px){
+    
+}
 
 
 
@@ -557,7 +559,9 @@ body{
     padding-top: 2vw;
     font-size: 1.6vw;
 }
-
+@media only screen and (max-width: 480px){
+    
+}
 
 
 
@@ -623,7 +627,9 @@ body{
 .top__middle{
     padding-right: 7.6vw;
 }
-
+@media only screen and (max-width: 480px){
+    
+}
 
 
 
@@ -680,7 +686,9 @@ body{
     width: 40vw;
     height: 34vw;
 }
-
+@media only screen and (max-width: 480px){
+    
+}
 
 
 

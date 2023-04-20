@@ -515,7 +515,9 @@ body{
     font-size: 4.6vw;
     padding-bottom: 4vw;
 }
-
+@media only screen and (max-width: 480px){
+    
+}
 
 
 
@@ -575,7 +577,9 @@ body{
     font-weight: 400;
     line-height: 160%;
 }
-
+@media only screen and (max-width: 480px){
+    
+}
 
 
 
